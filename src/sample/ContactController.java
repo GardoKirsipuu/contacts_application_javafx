@@ -18,8 +18,6 @@ public class ContactController {
     @FXML
     private TextField notesField;
 
-
-
     public Contact getNewContact() {
         String firstName = firstNameField.getText();
         String lastName = lastNameField.getText();
@@ -28,5 +26,19 @@ public class ContactController {
 
         Contact newContact = new Contact(firstName, lastName, phoneNumber, notes);
         return newContact;
+    }
+
+    public void editContact(Contact selectedContact) {
+        firstNameField.setText(selectedContact.getFirstName());
+        lastNameField.setText(selectedContact.getLastName());
+        phoneNumberField.setText(selectedContact.getPhoneNumber());
+        notesField.setText(selectedContact.getNotes());
+    }
+
+    public void updateContact(Contact selectedContact) {
+        selectedContact.setFirstName(firstNameField.getText());
+        selectedContact.setLastName(lastNameField.getText());
+        selectedContact.setPhoneNumber(phoneNumberField.getText());
+        selectedContact.setNotes(notesField.getText());
     }
 }
