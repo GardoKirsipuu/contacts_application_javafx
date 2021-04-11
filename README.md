@@ -1,88 +1,37 @@
 # Contacts Application JavaFX
 
-One Paragraph of project description goes here
+The purpose of this application is to add, look up, edit and delete contact information.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This application need atleast Java 11 and JavaFX 11.0.2 to work.
 
-```
-Give examples
-```
+### Installing and running
 
-### Installing
+1. Download the entire repository.
 
-A step by step series of examples that tell you how to get a development env running
+2. Compile the code - use an IDE, like Intellij, or do it manually using [this tutorial](https://beginnersbook.com/2013/05/first-java-program/)
 
-Say what the step will be
+3. Run the program
 
-```
-Give the example
-```
+### How to use the program
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+When you first run the program it should be open a window named Contacts. By pressing the Contacts button in the top left, you can add, delete and edit contact info. And when you close the program, the info in saved.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+* [IntelliJ](https://www.jetbrains.com/idea/) - IDE used
+* [Amazon Corretto](https://aws.amazon.com/corretto/) - Open Java Development Kit used
+* [JavaFX](https://gluonhq.com/products/javafx/)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Anna Karutina** - *Initial work*
+* **Gardo Kirsipuu** - *Copied the code*
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
